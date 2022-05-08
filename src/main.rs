@@ -30,7 +30,18 @@ fn main() {
 
     println!("Total: {:?}", total); // ! indicates macro 
 
-//   let mut my_name = "Dirk";
-//    my_name = "Robinson";
+    let items = [1, 2, 3, 4, 5];
+    print!("{:?}", items);
+
+    let vector_items = vec![1, 2, 3, 4, 5];
+    let mut vector_items_2 = Vec::new();
+    vector_items_2.push(1);
+    vector_items_2.push(2);
+    vector_items_2.push(3);
+    vector_items_2.push(4);
+    vector_items_2.push(5);
+
+    print!("{:?}", vector_items);
+    print!("{:?}", vector_items_2);
 }
 
